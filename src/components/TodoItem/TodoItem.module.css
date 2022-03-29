@@ -1,0 +1,42 @@
+.todo__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* width: 100%; */
+  /* min-height: 50px; */
+  /* position: relative; */
+  background-color: white;
+  margin: 0 0 8px;
+  border: 1px solid #ccc;
+  outline: 0;
+  border-radius: 8px;
+  /* padding: 0 16px; */
+  padding: 8px 16px;
+}
+.todo__item input {
+	margin-right: 16px;
+}
+.item__text {
+	/* display: block; */
+  width: 50%;
+  flex: 1 1 50%;
+  word-wrap: break-word;
+  align-self: center;
+  margin: 0 16px 0 8px;
+}
+.todo__btn {
+	width: 36px;
+  height: 36px;
+  background-color: gainsboro;
+  margin-left: 12px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  padding: 0 16px;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+.todo__btn:hover {
+  background-color: lightcoral;
+}
