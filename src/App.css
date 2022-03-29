@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+body {
+	background: linear-gradient(#93a5cf, #e4efe9);
+  height: 100%;
+  /* overflow: hidden; */
+  font-family: "Anonymous Pro", monospace;
+  font-size: 18px;
+}
+.todo-app {
+	max-width: 600px;
+  height: calc(100vh - 160px);
+  margin: 80px auto;
+  background-color: whitesmoke;
+  box-shadow: 0 8px 16px lightslategrey;
+}
+.bi-journal-minus {
+	font-size: 150px;
+}
+.done {
+	text-decoration: line-through;
+}
+@media (max-width: 768px) {
+	.todo-app {
+		max-width: 100%;
+		height: 100vh;
+		margin: 0;
+	}
+}
