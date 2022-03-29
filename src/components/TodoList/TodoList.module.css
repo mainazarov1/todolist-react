@@ -1,0 +1,10 @@
+.todo__list {
+	/* width: 500px; */
+	/* max-height: 90vh; */
+	margin: 0 auto;
+	/* background-color: blue; */
+	padding: 40px;
+}
+.todo__list h1 {
+	text-align: end;
+}
